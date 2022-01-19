@@ -40,12 +40,12 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:scaleType="centerCrop"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/just_realy_nice_image_here" />
+        android:contentDescription="@string/just_really_nice_image_here" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
